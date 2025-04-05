@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+
+.red {
+    background-color: rgb(200, 70, 100);
+}
+
+.blue {
+    background-color: rgb(80, 140, 180);
+}
+
+.orange {
+    background-color: rgb(250, 150, 50);
+}
+
+.purple {
+    background-color: rgb(120, 120, 255);
+}
+
+.flash {
+    opacity: 0.5;
+}
+.userflash {
+    background-color: green;
+}
+.game-over {
+    background-color: red;
+}
